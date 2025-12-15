@@ -1,0 +1,13 @@
+cat << EOF > .gitignore
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/raw/
+runs/
+.venv/
+.env
+EOF
+data/processed/
+
+# data (do not commit)
+data/
